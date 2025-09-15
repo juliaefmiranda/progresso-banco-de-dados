@@ -10,9 +10,9 @@ CREATE TABLE comidas_favoritas (
 INSERT INTO comidas_favoritas (nome, nota, pais_origem, saudavel, doce_salgado)
 VALUES
 ('Pizza Margherita', 9, 'Itália', FALSE, 'Salgado'),
-('Sushi', 10, 'Japão', TRUE, 'Salgado'),
+('Sushi', 7, 'Japão', TRUE, 'Salgado'),
 ('Feijoada', 8, 'Brasil', FALSE, 'Salgado'),
-('Churros', 7, 'Espanha', FALSE, 'Doce'),
+('Churros', 9, 'Espanha', FALSE, 'Doce'),
 ('Salada Grega', 9, 'Grécia', TRUE, 'Salgado'),
 ('Croissant', 8, 'França', FALSE, 'Doce'),
 ('Hambúrguer', 9, 'Estados Unidos', FALSE, 'Salgado'),
