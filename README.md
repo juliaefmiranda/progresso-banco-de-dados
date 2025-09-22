@@ -6,7 +6,8 @@ Este repositório está em constante evolução. Abaixo estão as principais atu
     - **CREATE**: Adição de novos registros ao banco de dados.
     - **READ**: COnsulta de dados gravados no banco.
 
-# 🎯 Problematização 1: Aula Expositiva
+
+🎯 Problematização 1: Aula Expositiva
 
 "Modernização do Sistema de Streaming GameFlix"
 
@@ -24,7 +25,7 @@ O GameFlix é uma plataforma de streaming de jogos que virou febre entre os jove
         data_cadastro DATE
     ); 
 
-    -- Dados iniciais - USUARIOS 
+    -- Dados iniciais - USUARIOS --
     INSERT INTO usuarios (username, email, pontos, data_cadastro)
     VALUES 
     ('NoobMaster', 'noob@gameflix.com', 1500, '2024-01-15'),
@@ -53,3 +54,38 @@ O GameFlix é uma plataforma de streaming de jogos que virou febre entre os jove
     ('TestAccount2', 'test2@email.com', 0, '2024-03-18'),
     ('AdminTest', 'admin@email.com', 0, '2024-03-20');
     ```
+
+🎯 Problematização 2: Loja de Cosmedicos BeautyTech
+
+- **Contexto**:
+Você foi contratado como desenvolvedor junior da BeautyTech, uma startup que vende produtos de beleza online, famosa no TikTok pelos tutoriais de skincare. A empresa está crescendo rapidamente e precisa atualizar constantemente seu sistema de produtos.
+
+```sql
+CREATE DATABASE beautytechdb;
+
+CREATE TABLE produtos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    marca VARCHAR(50) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    categoria VARCHAR(30) NOT NULL,
+    estoque INT DEFAULT 0
+);
+
+-- Dados dos produtos --
+INSERT INTO artistas (nome, tipo, membros, genero_musical, ano_lancamento, pais_origem, musica_famosa, ativo)
+VALUES
+('Adele', 'Solo', 1, 'Pop', 2006, 'Reino Unido', 'Rolling in the Deep', TRUE),
+('21 Pilots', 'Banda', 2, 'Rock Alternativa', 2009, 'Estados Unidos', 'Stressed Out', TRUE),
+('Coldplay', 'Banda', 4, 'Rock Alternativo', 1996, 'Reino Unido', 'Viva La Vida', TRUE),
+('Shakira', 'Solo', 1, 'Pop Latino', 1990, 'Colômbia', 'Hips Dont Lie', TRUE),
+('Daft Punk', 'Dupla', 2, 'Eletrônica', 1993, 'França', 'Get Lucky', FALSE),
+('BTS', 'Banda', 7, 'K-Pop', 2013, 'Coreia do Sul', 'Dynamite', TRUE),
+('Metallica', 'Banda', 4, 'Heavy Metal', 1981, 'Estados Unidos', 'Enter Sandman', TRUE),
+('Anitta', 'Solo', 1, 'Funk Pop', 2010, 'Brasil', 'Envolver', TRUE),
+('ABBA', 'Banda', 4, 'Pop', 1972, 'Suécia', 'Dancing Queen', FALSE),
+('Simon & Garfunkel', 'Dupla', 2, 'Folk Rock', 1964, 'Estados Unidos', 'The Sound of Silence', FALSE),
+('Rihanna', 'Solo', 1, 'R&B', 2005, 'Barbados', 'Umbrella', TRUE),
+('AC/DC', 'Banda', 5, 'Hard Rock', 1973, 'Austrália', 'Back in Black', TRUE);
+
+```
