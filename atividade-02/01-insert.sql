@@ -30,6 +30,6 @@ VALUES
 ('Máscara Facial Detox', 'Garnier', 19.90, 'Skincare', 60),
 ('Leave-in Termoprotetor', 'Truss', 119.90, 'Cabelo', 27),
 ('Perfume Luna Radiante', 'Natura', 149.90, 'Perfume', 34),
-('Iluminador Líquido Glow', 'Bruna Tavares', 65.00, 'Maquiagem', 45);
+('Iluminador Líquido Glow', 'Bruna Tavares', 19.00, 'Maquiagem', 45);
 
 SELECT * FROM produtos;
