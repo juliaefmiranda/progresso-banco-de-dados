@@ -8,3 +8,9 @@ WHERE marca = 'Fenty Beauty';
 
 UPDATE produtos SET preco = preco - (preco * 0.10)
 WHERE estoque > 100;
+
+UPDATE produtos SET preco = preco - (preco * 0.30)
+WHERE categoria = 'Perfume';
+
+UPDATE produtos SET estoque = estoque + 25
+WHERE preco > 150.00;
