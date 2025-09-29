@@ -14,3 +14,4 @@ WHERE categoria = 'Perfume';
 
 UPDATE produtos SET estoque = estoque + 25
 WHERE preco > 150.00;
+

@@ -8,4 +8,4 @@ DELETE FROM produtos
 WHERE marca = 'Dior';
 
 DELETE FROM produtos
-WHERE estoque BETWEEN 1 AND 5;
+WHERE estoque BETWEEN 100 AND 130;
