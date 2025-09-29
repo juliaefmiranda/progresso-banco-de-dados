@@ -4,7 +4,7 @@ WHERE categoria = 'Skincare';
 UPDATE produtos SET estoque = estoque + 50;
 
 UPDATE produtos SET preco = preco + (preco * 0.15)
-WHERE marca = 'Fenty Beauty';
+WHERE marca = 'Rare Beauty';
 
 UPDATE produtos SET preco = preco - (preco * 0.10)
 WHERE estoque > 100;
