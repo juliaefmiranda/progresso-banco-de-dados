@@ -1,5 +1,6 @@
-CREATE DATABASE beautytechdb;
+CREATE DATABASE beauty_tech_db;
 
+-- SERIAL = INT AUTO INCREMENT --
 CREATE TABLE produtos (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -16,7 +17,7 @@ VALUES
 ('Sérum para Densidade Capilar', 'The Ordinary', 209.00, 'Cabelo', 67),
 ('Máscara de Cílios', 'Boca Rosa', 60.00, 'Maquiagem', 28),
 ('Pergume Miss Dior', 'Dior', 799.99, 'Perfume', 10),
-('Base Fluida', 'Fenty Beauty', 189.90, 'Maquiagem', 25),
+('Base Fluida', 'Rare Beauty', 189.90, 'Maquiagem', 25),
 ('Protetor Solar Facial FPS 60', 'La Roche-Posay', 89.99, 'Skincare', 40),
 ('Shampoo Nutritivo', 'Kérastase', 149.90, 'Cabelo', 32),
 ('Batom Matte Velvet', 'MAC', 119.00, 'Maquiagem', 50),
