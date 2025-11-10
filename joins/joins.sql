@@ -76,9 +76,9 @@ FROM Funcionarios
 LEFT JOIN Departamentos ON Funcionarios.ID_Depto = Departamentos.ID_Depto;
 
 -- RIGHT JOIN --
-SELECT Departamentos.Nome_Depto, Funcionarios.Nome_Func
-FROM Departamentos
-RIGHT JOIN Funcionarios ON Departamentos.ID_Depto = Funcionarios.ID_Depto;
+SELECT Funcionarios.Nome_Func, Departamentos.Nome_Depto
+FROM Funcionarios
+RIGHT JOIN Departamentos ON Funcionarios.ID_Depto = Departamentos.ID_Depto;
 
 -- FULL OUTER JOIN (U) --
 SELECT Funcionarios.Nome_Func, Departamentos.Nome_Depto
